@@ -3,9 +3,8 @@
 
 let string = "Hello World"
 
-let output = string.split(" ").map((word) =>{
+let output = string.split(" ").map((word) => {
     return word.split("").reverse().join("")
 })
 
 console.log(output.join(" ")); //olleH dlroW
-
