@@ -7,4 +7,4 @@ let output = string.split(" ").map((word) => {
     return word.split("").reverse().join("")
 })
 
-console.log(output.join(" ")); //olleH dlroW
+console.log(output.join(" ")); // olleH dlroW
